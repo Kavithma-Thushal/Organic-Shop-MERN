@@ -1,9 +1,18 @@
 import './App.css';
+import {Navbar} from "./view/common/Navbar/Navbar";
+import {BrowserRouter} from "react-router-dom";
+import {Footer} from "./view/common/Footer/Footer";
+import React from "react";
+import {MainContent} from "./view/common/MainContent/MainContent";
 
 function App() {
     return (
         <div>
-            <h1 className={"text-green-600 text-6xl"}>Hello Organic Shop</h1>
+            <BrowserRouter>
+                <Navbar/>
+                <MainContent/>
+                <Footer/>
+            </BrowserRouter>
         </div>
     );
 }
