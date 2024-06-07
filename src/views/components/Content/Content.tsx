@@ -9,7 +9,7 @@ export function Content() {
     return (
         <div>
             <Routes>
-                <Route path={"/"} element={<Dashboard/>}></Route>
+                <Route path={"/Organic-Shop-MERN"} element={<Dashboard/>}></Route>
                 <Route path={"/dashboard"} element={<Dashboard/>}></Route>
                 <Route path={"/customer"} element={<Customer/>}></Route>
                 <Route path={"/item"} element={<Item/>}></Route>

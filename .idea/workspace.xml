@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea0488a-eb84-496c-bea6-c261244d5359" name="Changes" comment="Login Button Added" />
+    <list default="true" id="5ea0488a-eb84-496c-bea6-c261244d5359" name="Changes" comment="gh-pages Updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +130,7 @@
       <workItem from="1717756971650" duration="1268000" />
       <workItem from="1717759759325" duration="327000" />
       <workItem from="1717760279962" duration="1311000" />
+      <workItem from="1717762186225" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -195,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717761713193</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gh-pages Updated">
+      <option name="closed" value="true" />
+      <created>1717762900891</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717762900891</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,8 +218,8 @@
     <MESSAGE value="Project Refactored" />
     <MESSAGE value="Pages Added" />
     <MESSAGE value="BrowserRouter Added" />
-    <MESSAGE value="gh-pages Updated" />
     <MESSAGE value="Login Button Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Button Added" />
+    <MESSAGE value="gh-pages Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh-pages Updated" />
   </component>
 </project>
