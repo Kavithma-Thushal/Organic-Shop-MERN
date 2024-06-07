@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea0488a-eb84-496c-bea6-c261244d5359" name="Changes" comment="Project Refactored" />
+    <list default="true" id="5ea0488a-eb84-496c-bea6-c261244d5359" name="Changes" comment="Pages Added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +94,10 @@
       <workItem from="1716639521740" duration="373000" />
       <workItem from="1716639912128" duration="542000" />
       <workItem from="1716640464419" duration="103000" />
+      <workItem from="1716652396632" duration="2261000" />
+      <workItem from="1717038619645" duration="292000" />
+      <workItem from="1717057074518" duration="814000" />
+      <workItem from="1717057901114" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -125,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716640555625</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pages Added">
+      <option name="closed" value="true" />
+      <created>1716654639767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716654639767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +151,7 @@
     <MESSAGE value="README.md Updated 2" />
     <MESSAGE value="Tailwind CSS Added" />
     <MESSAGE value="Project Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Refactored" />
+    <MESSAGE value="Pages Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages Added" />
   </component>
 </project>

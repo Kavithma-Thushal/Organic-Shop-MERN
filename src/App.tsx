@@ -1,18 +1,13 @@
-import './App.css';
-import {Navbar} from "./view/common/Navbar/Navbar";
-import {BrowserRouter} from "react-router-dom";
-import {Footer} from "./view/common/Footer/Footer";
-import React from "react";
-import {MainContent} from "./view/common/MainContent/MainContent";
+import {Navbar} from "./views/components/Navbar/Navbar";
+import {Customer} from "./views/pages/Customer/Customer";
+import {Footer} from "./views/components/Footer/Footer";
 
 function App() {
     return (
         <div>
-            <BrowserRouter>
-                <Navbar/>
-                <MainContent/>
-                <Footer/>
-            </BrowserRouter>
+            <Navbar/>
+            <Customer/>
+            <Footer/>
         </div>
     );
 }
