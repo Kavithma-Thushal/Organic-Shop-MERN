@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea0488a-eb84-496c-bea6-c261244d5359" name="Changes" comment="BrowserRouter Added" />
+    <list default="true" id="5ea0488a-eb84-496c-bea6-c261244d5359" name="Changes" comment="gh-pages Updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +35,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.deploy.executor": "Run",
     "npm.install.executor": "Run",
     "npm.start.executor": "Run",
     "project.structure.last.edited": "Project",
@@ -59,7 +61,27 @@
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,6 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
@@ -104,6 +128,7 @@
       <workItem from="1717057074518" duration="814000" />
       <workItem from="1717057901114" duration="67000" />
       <workItem from="1717756971650" duration="1268000" />
+      <workItem from="1717759759325" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -153,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717759700620</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gh-pages Updated">
+      <option name="closed" value="true" />
+      <created>1717760083247</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717760083247</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +200,7 @@
     <MESSAGE value="Project Refactored" />
     <MESSAGE value="Pages Added" />
     <MESSAGE value="BrowserRouter Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="BrowserRouter Added" />
+    <MESSAGE value="gh-pages Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh-pages Updated" />
   </component>
 </project>
