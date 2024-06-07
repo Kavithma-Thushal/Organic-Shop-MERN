@@ -4,12 +4,12 @@ module.exports = {
     theme: {
         extend: {
             backgroundColor: {
-                'darkGreen': '#001800',
-                'neonGreen': '#39ff14',
+                'darkGreen': '#001707',
+                'lightGreen': '#56ac58',
             },
             textColor: {
-                'darkGreen': '#001800',
-                'neonGreen': '#39ff14',
+                'darkGreen': '#001707',
+                'lightGreen': '#56ac58',
             }
         },
     },
