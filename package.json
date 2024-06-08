@@ -5,14 +5,13 @@
   "license": "Apache-2.0",
   "private": true,
   "description": "This is learning about MERN in GDSE66",
-  "homepage": "https://Kavithma-Thushal.github.io/Organic-Shop-MERN",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.97",
-    "@types/react": "^18.3.3",
+    "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -24,9 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +45,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "react-router-dom": "^6.23.1",
     "tailwindcss": "^3.4.3"
