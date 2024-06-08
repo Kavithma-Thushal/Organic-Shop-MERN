@@ -1,25 +1,40 @@
 import {Component} from "react";
-import icon from '../../../assets/images/logo.png';
 import {Link} from "react-router-dom";
+import logo from '../../../assets/images/logo.png';
 
 export class NavBar extends Component {
     render() {
         return (
-            <div className="p-2 bg-darkGreen flex">
-                <h1 className="text-1x1 text-lightGreen">Organic Shop</h1>
-                <img className="h-5 w-5 ml-1" src={icon}/>
-                <ul className="list-none ml-[100px]">
-                    <li className="inline-block mr-2 text-[#e6f0e6] cursor-pointer hover:text-green-400"><Link
-                        to="/">Home</Link></li>
-                    <li className="inline-block mr-2 text-[#e6f0e6] cursor-pointer hover:text-green-400"><Link
-                        to="/about">About</Link></li>
-                    <li className="inline-block mr-2 text-[#e6f0e6] cursor-pointer hover:text-green-400"><Link
-                        to="/contact">Contact</Link></li>
-                    <li className="inline-block mr-2 text-[#e6f0e6] cursor-pointer hover:text-green-400"><Link
-                        to="/shopping-cart">My-Cart</Link></li>
-                </ul>
-                <button className="text-[8px] text-[#e6f0e6] bg-secondary pl-3 pr-3 rounded hover:text-tertiary"><Link
-                    to="/login">Sign In</Link></button>
+            <div className="p-4 bg-darkGreen flex items-center justify-between">
+                <div className="flex items-center">
+                    <a href="https://github.com/Kavithma-Thushal" target="_blank" rel="noopener noreferrer">
+                        <img className="h-8 w-8 mr-4" src={logo} alt="Logo"/>
+                    </a>
+                    <a href="https://github.com/Kavithma-Thushal" target="_blank" rel="noopener noreferrer">
+                        <h1 className="text-xl text-white font-semibold">Organic <span
+                            className="text-lightGreen">Shop</span></h1>
+                    </a>
+                </div>
+                <div className="flex items-center space-x-10">
+                    <ul className="list-none flex space-x-10">
+                        <li className="text-white font-semibold cursor-pointer hover:text-lightGreen transition duration-300">
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li className="text-white font-semibold cursor-pointer hover:text-lightGreen transition duration-300">
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li className="text-white font-semibold cursor-pointer hover:text-lightGreen transition duration-300">
+                            <Link to="/contact">Contact</Link>
+                        </li>
+                        <li className="text-white font-semibold cursor-pointer hover:text-lightGreen transition duration-300">
+                            <Link to="/shopping-cart">Cart</Link>
+                        </li>
+                    </ul>
+                    <button
+                        className="text-sm text-white font-semibold bg-lightGreen px-4 py-2 rounded hover:text-darkGreen transition duration-300">
+                        <Link to="/login">Login</Link>
+                    </button>
+                </div>
             </div>
         );
     }
