@@ -1,7 +1,7 @@
 import {Component} from "react";
-import spinash from '../../../images/products/spinach.png'
-import beans from '../../../images/products/beans.png'
-import tomato from '../../../images/products/tomato.png'
+import spinash from '../../../assets/images/products/spinach.png'
+import beans from '../../../assets/images/products/beans.png'
+import tomato from '../../../assets/images/products/tomato.png'
 import {Product} from "../../common/Product/Product";
 
 export class Home extends Component {

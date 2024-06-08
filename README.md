@@ -5,7 +5,7 @@ repository contains both the frontend and backend applications, built using the 
 React.js, Node.js). Our system provides an engaging and intuitive interface for customers to explore our organic product
 catalog, place orders, and manage their accounts, as well as administrative features for managing inventory, processing
 orders, and analyzing sales data. Pairing the frontend with our backend APIs ensures a seamless and responsive organic
-shopping experience
+shopping experience.
 
 ## Technologies Used
 

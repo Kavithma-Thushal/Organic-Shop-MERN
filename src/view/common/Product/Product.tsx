@@ -1,5 +1,5 @@
 import {Component} from "react";
-import spinash from "../../../images/products/spinach.png";
+import spinash from "../../../assets/images/products/spinach.png";
 import {ModifyCart} from "../ModifyCart/ModifyCart";
 
 interface ProductProps {
@@ -22,7 +22,7 @@ export class Product extends Component<ProductProps, ProductState> {
     render() {
 
         const {data} = this.props;
-        const image = require('../../../images/products/' + data.image)
+        const image = require('../../../assets/images/products/' + data.image)
         return (
             <div className="w-28 h-32 mr-2 mb-2 justify-center items-center border-gray-500 border-[0.5px]">
                 <div>

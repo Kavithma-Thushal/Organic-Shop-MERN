@@ -1,5 +1,5 @@
 import {Component} from "react";
-import icon from '../../../images/icon.png';
+import icon from '../../../assets/images/logo.png';
 import {Link} from "react-router-dom";
 
 export class NavBar extends Component {
