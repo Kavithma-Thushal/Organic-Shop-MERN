@@ -11,7 +11,7 @@ shopping experience.
 
 ### Frontend
 
-✅ React.js<br/>
+✅ React JS<br/>
 ✅ Tailwind CSS<br/>
 
 ### Backend
