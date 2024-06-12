@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="README.md Updated" />
+    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="Name Refactored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +108,7 @@
       <workItem from="1718197860692" duration="24000" />
       <workItem from="1718197888068" duration="433000" />
       <workItem from="1718198603045" duration="114000" />
+      <workItem from="1718198968588" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -237,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718198711728</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Name Refactored">
+      <option name="closed" value="true" />
+      <created>1718199441209</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718199441209</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +280,7 @@
     <MESSAGE value="gh pages removed" />
     <MESSAGE value="cart Link Changed" />
     <MESSAGE value="README.md Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md Updated" />
+    <MESSAGE value="Name Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Name Refactored" />
   </component>
 </project>

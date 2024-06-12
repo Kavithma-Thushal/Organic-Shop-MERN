@@ -1,4 +1,3 @@
-import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import {DefaultLayout} from "./views/components/DefaultLayout/DefaultLayout";
 import {Login} from "./views/pages/Login/Login";
