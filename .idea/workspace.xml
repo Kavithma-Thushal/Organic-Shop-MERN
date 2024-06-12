@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="Refactored" />
+    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="About Refactored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +98,7 @@
       <workItem from="1718180401138" duration="10099000" />
       <workItem from="1718191303073" duration="599000" />
       <workItem from="1718192631261" duration="1007000" />
+      <workItem from="1718193651013" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -147,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718193641569</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="About Refactored">
+      <option name="closed" value="true" />
+      <created>1718194160336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718194160336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +180,7 @@
     <MESSAGE value="Footer.tsx Refactored" />
     <MESSAGE value="UI Refactored" />
     <MESSAGE value="Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+    <MESSAGE value="About Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="About Refactored" />
   </component>
 </project>

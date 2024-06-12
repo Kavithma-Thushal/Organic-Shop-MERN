@@ -4,9 +4,8 @@ export class Contact extends Component {
     render() {
         return (
             <div className="flex items-center justify-center min-h-screen bg-gray-100">
-                <div className="p-8 m-8 mb-[80px] bg-white rounded-lg shadow-md mt-[100px] w-[600px]">
-                    <h2 className="text-3xl text-center text-lightGreen font-bold mb-6">Contact Us</h2>
-                    <p className="text-center text-gray-600 mb-8 font-semibold">Got a technical issue?</p>
+                <div className="p-8 m-8 bg-white rounded-lg shadow-md mt-[90px] w-[600px] mb-[80px]">
+                    <h2 className="text-3xl text-center text-lightGreen font-bold mb-3">Contact Us</h2>
                     <form className="space-y-6">
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
