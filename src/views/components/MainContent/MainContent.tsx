@@ -14,7 +14,7 @@ export class MainContent extends Component {
                     <Route path="/" Component={Home}></Route>
                     <Route path="/about" Component={About}></Route>
                     <Route path="/contact" Component={Contact}></Route>
-                    <Route path="/shopping-cart" element={<Cart itemsList={AddToCart.itemsList}/>}></Route>
+                    <Route path="/cart" element={<Cart itemsList={AddToCart.itemsList}/>}></Route>
                 </Routes>
             </div>
         );

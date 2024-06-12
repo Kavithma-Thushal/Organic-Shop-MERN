@@ -72,7 +72,7 @@ export class AddToCart extends Component<ModifyCartProps, ModifyCartState> {
                     className="bg-blue-300 text-white rounded-full h-6 w-6 flex items-center justify-center font-bold hover:bg-blue-400 transition"
                     onClick={decreaseItemCount}>-
                 </button>
-                <span className="mx-2 text-gray-700">{itemCount}</span>
+                <span className="mx-2 text-gray-700 font-bold">{itemCount}</span>
                 <button
                     className="bg-blue-300 text-white rounded-full h-6 w-6 flex items-center justify-center font-bold hover:bg-blue-400 transition"
                     onClick={increaseItemCount}>+
