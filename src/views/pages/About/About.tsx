@@ -5,7 +5,7 @@ export class About extends Component {
         return (
             <div className="flex items-center justify-center min-h-screen bg-gray-100">
                 <div className="p-8 m-8 bg-white rounded-lg shadow-lg mt-[100px] mb-[100px]">
-                    <h2 className="pb-4 text-4xl font-bold text-center text-green-600 border-b-2 border-green-200">About
+                    <h2 className="pb-4 text-4xl font-bold text-center text-lightGreen border-b-2 border-green-200">About
                         Us</h2>
                     <p className="pt-4 text-lg text-gray-700 leading-relaxed">
                         At Organic Shop, we believe in the power of nature to nourish, heal, and inspire. Our journey

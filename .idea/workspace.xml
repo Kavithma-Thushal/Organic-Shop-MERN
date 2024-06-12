@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="Name Refactored" />
+    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="Refactored 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +111,8 @@
       <workItem from="1718197888068" duration="433000" />
       <workItem from="1718198603045" duration="114000" />
       <workItem from="1718198968588" duration="479000" />
+      <workItem from="1718199456964" duration="1941000" />
+      <workItem from="1718203359686" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -246,7 +250,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718199441209</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="App.tsx Refactored">
+      <option name="closed" value="true" />
+      <created>1718199790626</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718199790626</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Refactored 3">
+      <option name="closed" value="true" />
+      <created>1718201547933</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718201547933</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,12 +295,13 @@
     <MESSAGE value="Login Refactored" />
     <MESSAGE value="Products Refactored" />
     <MESSAGE value="Contacts Refactored 2" />
-    <MESSAGE value="Refactored 3" />
     <MESSAGE value="gh pages added" />
     <MESSAGE value="gh pages removed" />
     <MESSAGE value="cart Link Changed" />
     <MESSAGE value="README.md Updated" />
     <MESSAGE value="Name Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Name Refactored" />
+    <MESSAGE value="App.tsx Refactored" />
+    <MESSAGE value="Refactored 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored 3" />
   </component>
 </project>
