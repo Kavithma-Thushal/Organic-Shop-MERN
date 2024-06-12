@@ -6,7 +6,7 @@ import {Contact} from "../../pages/Contact/Contact";
 import {Cart} from "../../pages/Cart/Cart";
 import {AddToCart} from "../AddToCart/AddToCart";
 
-export class MainContent extends Component {
+export class Content extends Component {
     render() {
         return (
             <div>

@@ -1,6 +1,6 @@
 import {Component} from "react";
 import {NavBar} from "../Navbar/NavBar";
-import {MainContent} from "../MainContent/MainContent";
+import {Content} from "../Content/Content";
 import {Footer} from "../Footer/Footer";
 
 export class DefaultLayout extends Component {
@@ -8,7 +8,7 @@ export class DefaultLayout extends Component {
         return (
             <div>
                 <NavBar/>
-                <MainContent/>
+                <Content/>
                 <Footer/>
             </div>
         );
