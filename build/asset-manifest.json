@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Organic-Shop-MERN/static/css/main.d2bf63b7.css",
+    "main.js": "/Organic-Shop-MERN/static/js/main.dfe35a3e.js",
+    "static/media/spinach.png": "/Organic-Shop-MERN/static/media/spinach.7ca43755c7a76ec22fd5.png",
+    "static/media/beans.png": "/Organic-Shop-MERN/static/media/beans.44dc5e34b8e1d3cfa30a.png",
+    "static/media/tomato.png": "/Organic-Shop-MERN/static/media/tomato.a4fef51d615b75fb3eb1.png",
+    "static/media/logo.png": "/Organic-Shop-MERN/static/media/logo.f8be0a1656c429d270af.png",
+    "index.html": "/Organic-Shop-MERN/index.html",
+    "main.d2bf63b7.css.map": "/Organic-Shop-MERN/static/css/main.d2bf63b7.css.map",
+    "main.dfe35a3e.js.map": "/Organic-Shop-MERN/static/js/main.dfe35a3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2bf63b7.css",
+    "static/js/main.dfe35a3e.js"
+  ]
+}
