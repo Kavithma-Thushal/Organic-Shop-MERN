@@ -20,7 +20,7 @@ export class Home extends Component {
             let jsonData = await response.json();
             this.setState({data: jsonData});
         } catch (error) {
-            console.error('Error fetching data:', error);
+            console.error('Fetching Data Error : ', error);
         }
     }
 
@@ -29,7 +29,7 @@ export class Home extends Component {
         const {data} = this.state;
         return (
             <div className="flex">
-                <div className="flex flex-wrap ml-[1px] mt-10 mb-5 justify-center items-center mx-auto">
+                <div className="flex flex-wrap">
                     {data.map((product: any) => (<Product key={product.id} data={product}/>))}
                 </div>
             </div>

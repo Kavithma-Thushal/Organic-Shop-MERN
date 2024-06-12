@@ -10,6 +10,7 @@ interface ProductState {
 }
 
 export class Product extends Component<ProductProps, ProductState> {
+
     constructor(props: ProductProps) {
         super(props);
         this.state = {
@@ -28,7 +29,7 @@ export class Product extends Component<ProductProps, ProductState> {
         const product = require('../../../assets/images/products/' + data.image);
         return (
             <div
-                className="w-60 p-4 rounded-lg shadow-2xl bg-white flex flex-col justify-between items-center mt-[170px] ml-[200px]">
+                className="w-60 p-4 rounded-lg shadow-2xl bg-white flex flex-col justify-between items-center mt-[200px] ml-[200px]">
                 <img className="h-32" src={product} alt={data.name}/>
                 <div className="mt-4 w-full text-center">
                     <h3 className="text-lg font-semibold text-gray-800">{data.name}</h3>
