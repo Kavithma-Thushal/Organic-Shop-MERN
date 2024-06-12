@@ -16,12 +16,11 @@ export class Login extends Component {
                         <div>
                             <label className="block text-sm font-medium text-gray-700">Password</label>
                             <input
-                                className="w-full px-3 py-2 mt-1 text-sm border rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
+                                className="w-full px-3 py-2 mt-1 text-sm border rounded"
                                 type="password" placeholder="Enter Password"/>
                         </div>
-                        <button
-                            className="w-full px-4 py-2 text-sm font-semibold text-white bg-lightGreen rounded-md hover:bg-green-700 hover:text-black"
-                            type="submit">
+                        <button type="submit"
+                                className="w-full px-4 py-2 text-sm font-semibold text-white bg-lightGreen rounded hover:bg-green-700">
                             Sign In
                         </button>
                     </form>
