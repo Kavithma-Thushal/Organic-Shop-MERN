@@ -42,7 +42,7 @@ export class Product extends Component<ProductProps, ProductState> {
                         <AddToCart data={{product: data, isAdded: this.state.isActive}}/>
                     ) : (
                         <button
-                            className="w-full mt-2 py-2 bg-lightGreen text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors"
+                            className="w-full mt-2 py-2 bg-lightGreen text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition duration-300"
                             onClick={this.addToCartOnClick}>Add to Cart</button>
                     )}
                 </div>
