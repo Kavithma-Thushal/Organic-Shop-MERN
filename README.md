@@ -26,13 +26,13 @@ shopping experience.
 
 ✅ Single-page application (SPA) architecture for smooth navigation and enhanced user experience<br/>
 ✅ Responsive design using CSS frameworks like Tailwind CSS for optimal display across devices<br/>
-✅ Integration with backend RESTful APIs to fetch and update product inventory and order information<br/>
+✅ Integration with backend RESTFul APIs to fetch and update product inventory and order information<br/>
 ✅ Interactive components for browsing products, adding items to cart, and completing checkout processes<br/>
 ✅ Admin dashboard with data visualization tools for monitoring sales, inventory levels, and customer metrics<br/>
 
 ### Backend
 
-✅ RESTful API endpoints for CRUD operations on product inventory, orders, and customers<br/>
+✅ RESTFul API endpoints for CRUD operations on product inventory, orders, and customers<br/>
 ✅ Integration with JWT (JSON Web Tokens) for secure user authentication and role-based access control<br/>
 ✅ Utilization of Mongoose for interacting with the underlying MongoDB database<br/>
 ✅ Implementation of validation and exception handling for robust error management<br/>
@@ -40,19 +40,10 @@ shopping experience.
 
 ## Usage
 
-### Frontend
-
-1. Clone the repository: git clone `https://github.com/Kavithma-Thushal/Organic-Shop-FrontEnd.git`
+1. Clone the repository: git clone `https://github.com/Kavithma-Thushal/Organic-Shop-MERN.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm start`
 4. Open your preferred web browser and navigate to `http://localhost:3000`
-
-### Backend
-
-1. Clone the repository: git clone `https://github.com/Kavithma-Thushal/Organic-Shop-BackEnd-Node.js.git`
-2. Install the dependencies: `npm install`
-3. Start the application: `npm start`
-4. Access the application at `http://localhost:3000`
 
 ## Version
 
