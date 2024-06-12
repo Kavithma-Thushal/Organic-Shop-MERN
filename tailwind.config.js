@@ -5,11 +5,11 @@ module.exports = {
         extend: {
             backgroundColor: {
                 'darkGreen': '#001707',
-                'lightGreen': '#56ac58',
+                'lightGreen': '#16a34a',
             },
             textColor: {
                 'darkGreen': '#001707',
-                'lightGreen': '#56ac58',
+                'lightGreen': '#16a34a',
             }
         },
     },

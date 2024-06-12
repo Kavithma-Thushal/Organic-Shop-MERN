@@ -3,52 +3,32 @@ import {Component} from "react";
 export class Contact extends Component {
     render() {
         return (
-            <div className="flex">
-                <div className="h-auto pt-5
-                                pl-10 mx-auto">
-                    <div className="p-2">
-                        <h2 className="text-3xl
-                                        text-green-400
-                                        text-center
-                                        underline
-                                        decoration-2">Contact Us</h2>
-                        <p className="pb-3 text-[8px]">
-                            Got a technical issue?
-                            Want to contact us?
-                            Please let us assist you..</p>
-                    </div>
-                    <form className="h-auto p-2
-                                     justify-center">
-                        <div className="pb-2">
-                            <label className="text-[7px]">
-                                Your Email:</label>
-                            <input type="email"
-                                    className="float-right
-                                               border-[1px]
-                                               border-green-200"/>
+            <div className="flex items-center justify-center min-h-screen bg-gray-100">
+                <div className="p-8 m-8 mb-[80px] bg-white rounded-lg shadow-md mt-[100px] w-[600px]">
+                    <h2 className="text-3xl text-center text-lightGreen font-bold mb-6">Contact Us</h2>
+                    <p className="text-center text-gray-600 mb-8 font-semibold">Got a technical issue?</p>
+                    <form className="space-y-6">
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" className="w-full p-3 border border-gray-300 rounded-md"
+                                   placeholder="Enter your email"/>
                         </div>
-                        <div className="pb-2">
-                            <label className="text-[7px]">
-                                Your Subject:</label>
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">Subject</label>
                             <input type="text"
-                                   className="float-right
-                                               border-[1px]
-                                               border-green-200"/>
+                                   className="w-full p-3 border border-gray-300 rounded-md focus:ring-lightGreen focus:border-lightGreen"
+                                   placeholder="Enter subject"/>
                         </div>
-                        <div className="pb-2">
-                            <label className="text-[7px]">
-                                Your Message:</label>
+                        <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
                             <textarea
-                                   className="float-right
-                                               border-[1px]
-                                               border-green-200"/>
+                                className="w-full p-3 border border-gray-300 rounded-md focus:ring-lightGreen focus:border-lightGreen"
+                                rows={5} placeholder="Enter your message"></textarea>
                         </div>
-
-                        <div className="mt-2">
-                            <button className="mt-5 p-[5px]
-                                               bg-green-400
-                                               text-[7px]">
-                                Send Message
+                        <div className="text-center">
+                            <button
+                                className="px-6 py-2 bg-lightGreen text-white rounded-md hover:bg-green-700 transition duration-300">Send
+                                Message
                             </button>
                         </div>
                     </form>

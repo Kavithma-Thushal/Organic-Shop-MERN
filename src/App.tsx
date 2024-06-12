@@ -1,6 +1,6 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {DefaultLayout} from "./view/common/DefaultContent/DefaultLayout";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {DefaultContent} from "./view/common/DefaultContent/DefaultContent";
 import {Login} from "./view/pages/Login/Login";
 
 export function App() {
@@ -8,7 +8,7 @@ export function App() {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/*" Component={DefaultLayout}></Route>
+                    <Route path="/*" Component={DefaultContent}></Route>
                     <Route path="/login" Component={Login}></Route>
                 </Routes>
             </BrowserRouter>

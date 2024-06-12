@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="NavBar.tsx Refactored" />
+    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="Footer.tsx Refactored">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,24 +26,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "ts.external.directory.path": "D:\\IJSE\\Workspace\\3rd Sem Repo\\RAD\\Organic-Shop-MERN\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IJSE\\Workspace\\3rd Sem Repo\\RAD\\Organic-Shop-MERN\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -71,6 +73,7 @@
       <list>
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +95,8 @@
       <updated>1717863204337</updated>
       <workItem from="1717863205008" duration="99000" />
       <workItem from="1717869214704" duration="1224000" />
+      <workItem from="1717870455359" duration="591000" />
+      <workItem from="1717871054976" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -117,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717870445720</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Footer.tsx Refactored">
+      <option name="closed" value="true" />
+      <created>1717871043274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717871043274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +140,7 @@
     <MESSAGE value="README.md Updated" />
     <MESSAGE value="Structure Refactored" />
     <MESSAGE value="NavBar.tsx Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="NavBar.tsx Refactored" />
+    <MESSAGE value="Footer.tsx Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer.tsx Refactored" />
   </component>
 </project>

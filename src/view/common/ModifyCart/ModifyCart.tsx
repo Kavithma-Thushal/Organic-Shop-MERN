@@ -2,113 +2,82 @@ import {Component} from "react";
 import {CartItem} from "../../../model/CartItem";
 
 interface ModifyCartProps {
-    data: any
+    data: any;
 }
+
 interface ModifyCartState {
-    itemCount: number
+    itemCount: number;
 }
 
 export class ModifyCart extends Component<ModifyCartProps, ModifyCartState> {
-
-    public static itemsList:CartItem[] = [];
+    public static itemsList: CartItem[] = [];
 
     constructor(props: ModifyCartProps) {
         super(props);
         this.state = {
-            itemCount: 1
-        }
+            itemCount: 1,
+        };
     }
 
     componentDidMount() {
-        const {itemCount}
-            = this.state;
+        const {itemCount} = this.state;
 
         if (this.props.data.isAdded) {
-            if (!ModifyCart.itemsList
-                .find(item=>
-                    item.product.id ===
-                    this.props.data.product.id)) {
-                ModifyCart.itemsList.push(
-                    {
-                        product: this.props.data.product,
-                        itemCount: itemCount
-                    }
-                );
+            if (!ModifyCart.itemsList.find(item => item.product.id === this.props.data.product.id)) {
+                ModifyCart.itemsList.push({
+                    product: this.props.data.product,
+                    itemCount: itemCount,
+                });
                 console.log(ModifyCart.itemsList);
             }
         }
     }
 
     componentDidUpdate(prevProps: Readonly<ModifyCartProps>, prevState: Readonly<ModifyCartState>, snapshot?: any) {
-        let {itemCount}
-            = this.state;
-        let item
-            = ModifyCart.itemsList
-            .find(item =>
-              item.product.id ===
-                this.props.data
-                    .product.id);
+        let {itemCount} = this.state;
+        let item = ModifyCart.itemsList.find(item => item.product.id === this.props.data.product.id);
         if (item) {
-            let index =
-                ModifyCart.itemsList
-                    .indexOf(item);
-            ModifyCart.itemsList
-                .splice(index, 1);
-            ModifyCart.itemsList
-                .push({
-                    product: this.props.data.product,
-                    itemCount: itemCount
-                });
-
+            let index = ModifyCart.itemsList.indexOf(item);
+            ModifyCart.itemsList.splice(index, 1);
+            ModifyCart.itemsList.push({
+                product: this.props.data.product,
+                itemCount: itemCount,
+            });
             console.log(ModifyCart.itemsList);
         }
     }
 
     render() {
+        let {itemCount} = this.state;
 
-        let {itemCount}
-            = this.state;
+        const increaseItemCount = () => {
+            this.setState({
+                itemCount: ++itemCount,
+            });
+        };
 
-        const increaseItemCount =
-            () => {
-          // alert('Add');
+        const decreaseItemCount = () => {
+            if (itemCount > 1) {
                 this.setState({
-                    itemCount: ++itemCount
-                })
-        }
-
-        const decreaseItemCount =
-            () => {
-            // alert('Remove')
-                if (itemCount > 1) {
-                    this.setState({
-                        itemCount: --itemCount
-                    })
-                } else {
-                    alert('Item count ' +
-                        'can\'t be less than 1' );
-                }
+                    itemCount: --itemCount,
+                });
+            } else {
+                alert("Item count can't be less than 1");
             }
+        };
 
         return (
-            <div className="w-full
-                                            mt-1
-                                            p-[2.4px]
-                                            text-[8px]
-                                            text-center">
-                <button className="float-left
-                                                  text-[8px]
-                                                  bg-yellow-300
-                                                  rounded-lg
-                                                  h-3 w-4"
-                         onClick={decreaseItemCount}>-</button>
-                <small className="text-[8px]">{itemCount}</small>
-                <button className="float-right
-                                                  text-[8px]
-                                                  bg-yellow-300
-                                                  rounded-lg
-                                                  h-3 w-4"
-                    onClick={increaseItemCount}>+</button>
+            <div
+                className="flex items-center justify-between mt-2 p-2 text-xs text-center border border-gray-200 rounded-md shadow-sm w-full">
+                <button
+                    className="bg-blue-300 text-white rounded-full h-6 w-6 flex items-center justify-center font-bold hover:bg-blue-400 transition"
+                    onClick={decreaseItemCount}>-
+                </button>
+                <span className="mx-2 text-gray-700">{itemCount}</span>
+                <button
+                    className="bg-blue-300 text-white rounded-full h-6 w-6 flex items-center justify-center font-bold hover:bg-blue-400 transition"
+                    onClick={increaseItemCount}>+
+                </button>
             </div>
         );
     }

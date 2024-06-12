@@ -5,7 +5,7 @@ import logo from '../../../assets/images/logo.png';
 export class NavBar extends Component {
     render() {
         return (
-            <div className="p-4 bg-darkGreen flex items-center justify-between">
+            <div className="w-full p-4 bg-darkGreen flex items-center fixed justify-between">
                 <div className="flex items-center">
                     <a href="https://github.com/Kavithma-Thushal" target="_blank" rel="noopener noreferrer">
                         <img className="h-8 w-8 mr-4" src={logo} alt="Logo"/>
@@ -31,7 +31,7 @@ export class NavBar extends Component {
                         </li>
                     </ul>
                     <button
-                        className="text-sm text-white font-semibold bg-lightGreen px-4 py-2 rounded hover:text-darkGreen transition duration-300">
+                        className="text-sm text-white font-semibold bg-lightGreen px-4 py-2 rounded hover:bg-green-700 transition duration-300">
                         <Link to="/login">Login</Link>
                     </button>
                 </div>
