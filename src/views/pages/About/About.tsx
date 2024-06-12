@@ -19,7 +19,7 @@ export class About extends Component {
                         wellness, and a greener lifestyle.
                     </p>
                     <div className="pt-6">
-                        <h3 className="text-2xl font-semibold text-green-600">Our Values</h3>
+                        <h3 className="text-2xl font-semibold text-lightGreen">Our Values</h3>
                         <ul className="list-disc list-inside pt-2 text-lg text-gray-700 leading-relaxed">
                             <li>Integrity: Upholding the highest standards of honesty and transparency in all our
                                 actions.
@@ -30,7 +30,7 @@ export class About extends Component {
                         </ul>
                     </div>
                     <div className="pt-6">
-                        <h3 className="text-2xl font-semibold text-green-600">Our Story</h3>
+                        <h3 className="text-2xl font-semibold text-lightGreen">Our Story</h3>
                         <p className="pt-2 text-lg text-gray-700 leading-relaxed">
                             Organic Shop started as a small family-owned business with a passion for natural products.
                             Over the years, we have grown into a well-respected brand known for our commitment to
@@ -40,7 +40,7 @@ export class About extends Component {
                         </p>
                     </div>
                     <div className="pt-6">
-                        <h3 className="text-2xl font-semibold text-green-600">Join Us</h3>
+                        <h3 className="text-2xl font-semibold text-lightGreen">Join Us</h3>
                         <p className="pt-2 text-lg text-gray-700 leading-relaxed">
                             We invite you to join us on our journey towards a healthier and more sustainable future.
                             Whether you're new to organic living or a seasoned enthusiast, we have something for
