@@ -1,5 +1,5 @@
 import {Component} from "react";
-import {Product} from "../../common/Product/Product";
+import {Product} from "../../components/Product/Product";
 
 export class Home extends Component {
 

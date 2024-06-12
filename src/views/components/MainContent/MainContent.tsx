@@ -4,7 +4,7 @@ import {Home} from "../../pages/Home/Home";
 import {About} from "../../pages/About/About";
 import {Contact} from "../../pages/Contact/Contact";
 import {Cart} from "../../pages/Cart/Cart";
-import {ModifyCart} from "../ModifyCart/ModifyCart";
+import {AddToCart} from "../AddToCart/AddToCart";
 
 export class MainContent extends Component {
     render() {
@@ -14,7 +14,7 @@ export class MainContent extends Component {
                     <Route path="/" Component={Home}></Route>
                     <Route path="/about" Component={About}></Route>
                     <Route path="/contact" Component={Contact}></Route>
-                    <Route path="/shopping-cart" element={<Cart itemsList={ModifyCart.itemsList}/>}></Route>
+                    <Route path="/shopping-cart" element={<Cart itemsList={AddToCart.itemsList}/>}></Route>
                 </Routes>
             </div>
         );

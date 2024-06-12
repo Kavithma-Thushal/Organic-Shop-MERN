@@ -3,7 +3,7 @@ import {NavBar} from "../Navbar/NavBar";
 import {MainContent} from "../MainContent/MainContent";
 import {Footer} from "../Footer/Footer";
 
-export class DefaultContent extends Component {
+export class DefaultLayout extends Component {
     render() {
         return (
             <div>

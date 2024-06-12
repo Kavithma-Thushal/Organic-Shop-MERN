@@ -1,5 +1,5 @@
 import {Component} from "react";
-import {ModifyCart} from "../ModifyCart/ModifyCart";
+import {AddToCart} from "../AddToCart/AddToCart";
 
 interface ProductProps {
     data: any;
@@ -38,7 +38,7 @@ export class Product extends Component<ProductProps, ProductState> {
                 </div>
                 <div className="mt-4 w-full flex justify-center">
                     {this.state.isActive ? (
-                        <ModifyCart data={{product: data, isAdded: this.state.isActive}}/>
+                        <AddToCart data={{product: data, isAdded: this.state.isActive}}/>
                     ) : (
                         <button
                             className="w-full mt-2 py-2 bg-lightGreen text-white text-sm font-semibold rounded-lg hover:bg-green-700 transition-colors"
