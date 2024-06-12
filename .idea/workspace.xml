@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="Refactored 3" />
+    <list default="true" id="25655f7f-da78-4c60-9a0d-e0e38743941a" name="Changes" comment="gh pages added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,24 +24,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\IJSE\\Workspace\\3rd Sem Repo\\RAD\\Organic-Shop-MERN\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "ts.external.directory.path": "D:\\IJSE\\Workspace\\3rd Sem Repo\\RAD\\Organic-Shop-MERN\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -102,6 +103,7 @@
       <workItem from="1718194169362" duration="848000" />
       <workItem from="1718195032252" duration="329000" />
       <workItem from="1718195367489" duration="1294000" />
+      <workItem from="1718196683104" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="README.md Updated">
       <option name="closed" value="true" />
@@ -199,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718196666101</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="gh pages added">
+      <option name="closed" value="true" />
+      <created>1718197270794</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718197270794</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +227,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="README.md Updated" />
     <MESSAGE value="Structure Refactored" />
     <MESSAGE value="NavBar.tsx Refactored" />
@@ -229,6 +240,7 @@
     <MESSAGE value="Products Refactored" />
     <MESSAGE value="Contacts Refactored 2" />
     <MESSAGE value="Refactored 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored 3" />
+    <MESSAGE value="gh pages added" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh pages added" />
   </component>
 </project>
