@@ -1,10 +1,16 @@
 import {Component} from "react";
+import axios from "axios";
 import {Product} from "../../components/Product/Product";
 
 export class Home extends Component {
 
+    private api: any;
+
     constructor(props: {}) {
         super(props);
+        this.api = axios.create({
+            baseURL: `http://localhost:4000`
+        });
         this.state = {
             data: []
         }
@@ -16,9 +22,13 @@ export class Home extends Component {
 
     fetchData = async () => {
         try {
-            let response = await fetch('./product-data.json');
-            let jsonData = await response.json();
-            this.setState({data: jsonData});
+            this.api.get('/products')
+                .then((res: { data: any }) => {
+                    const jsonData = res.data;
+                    this.setState({data: jsonData});
+                }).catch((error: any) => {
+                console.error("Axios Error", error);
+            });
         } catch (error) {
             console.error('Fetching Data Error : ', error);
         }
