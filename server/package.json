@@ -1,16 +1,23 @@
 {
-  "name": "organic-shop-mern-backend",
-  "version": "0.0.0",
+  "name": "organic-shop-mern",
+  "version": "1.0.0",
+  "author": "Kavithma Thushal",
+  "license": "Apache-2.0",
   "private": true,
+  "description": "This is learning about MERN in GDSE66",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
   }
 }
