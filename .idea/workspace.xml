@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="cors, axios, nodemon dependencies added">
+    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="Views Added to Server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN/server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN/server/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,10 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server\public" />
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.client">
     <configuration name="client" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -90,8 +91,9 @@
       <list>
         <item itemvalue="npm.server" />
         <item itemvalue="npm.client" />
-        <item itemvalue="npm.server" />
         <item itemvalue="npm.client" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.server" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +116,8 @@
       <workItem from="1718452697035" duration="430000" />
       <workItem from="1718528370730" duration="3441000" />
       <workItem from="1718531885654" duration="119000" />
+      <workItem from="1718532008853" duration="1002000" />
+      <workItem from="1718533026053" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Server Added">
       <option name="closed" value="true" />
@@ -131,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718531869182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Views Added to Server">
+      <option name="closed" value="true" />
+      <created>1718532976131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718532976131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +153,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Server Added" />
     <MESSAGE value="cors, axios, nodemon dependencies added" />
-    <option name="LAST_COMMIT_MESSAGE" value="cors, axios, nodemon dependencies added" />
+    <MESSAGE value="Views Added to Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Views Added to Server" />
   </component>
 </project>
