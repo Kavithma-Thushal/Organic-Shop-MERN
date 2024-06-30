@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.52">
+    <root id="1">
+      <ServerVersion>7.0.11</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin">
+      <LastIntrospectionLocalTimestamp>2024-06-30.08:16:48</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="3" parent="1" name="config">
+      <LastIntrospectionLocalTimestamp>2024-06-30.08:16:48</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="4" parent="1" name="demo">
+      <LastIntrospectionLocalTimestamp>2024-06-30.08:16:48</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="5" parent="1" name="local">
+      <LastIntrospectionLocalTimestamp>2024-06-30.08:16:48</LastIntrospectionLocalTimestamp>
+    </schema>
+    <schema id="6" parent="1" name="organic_shop">
+      <LastIntrospectionLocalTimestamp>2024-06-30.08:20:11</LastIntrospectionLocalTimestamp>
+    </schema>
+    <table id="7" parent="6" name="products"/>
+    <column id="8" parent="7" name="_id">
+      <DasType>ObjectId|12s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="9" parent="7" name="currency">
+      <DasType>String|12s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="10" parent="7" name="id">
+      <DasType>Int32|4s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="11" parent="7" name="image">
+      <DasType>String|12s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="12" parent="7" name="name">
+      <DasType>String|12s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="13" parent="7" name="price">
+      <DasType>String|12s</DasType>
+      <Position>6</Position>
+    </column>
+  </database-model>
+</dataSource>

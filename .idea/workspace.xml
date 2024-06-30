@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="Contacts Alert Refactored" />
+    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="Mongo DB Connected">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +38,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN/server/views&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN/server&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,13 +65,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server" />
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server\views" />
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server\routes" />
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server\public" />
-      <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.client">
+  <component name="RunManager" selected="npm.server">
     <configuration name="client" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -129,6 +138,8 @@
       <workItem from="1718792452050" duration="1262000" />
       <workItem from="1718796213696" duration="167000" />
       <workItem from="1719713530040" duration="669000" />
+      <workItem from="1719714401340" duration="10001000" />
+      <workItem from="1719734704733" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="Server Added">
       <option name="closed" value="true" />
@@ -202,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719714196738</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mongo DB Connected">
+      <option name="closed" value="true" />
+      <created>1719730143278</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719730143278</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +238,7 @@
     <MESSAGE value="All Products Added to Client" />
     <MESSAGE value="ContactsRouter Added" />
     <MESSAGE value="Contacts Alert Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contacts Alert Refactored" />
+    <MESSAGE value="Mongo DB Connected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mongo DB Connected" />
   </component>
 </project>

@@ -13,8 +13,12 @@ export const Home = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await api.get('/products/loadAllProducts');
-                setData(res.data);
+                api.get('/products/loadAllProducts').then((res: { data: any }) => {
+                    const jsonData = res.data;
+                    setData(jsonData);
+                }).catch((error: any) => {
+                    console.error("Axios Error", error);
+                });
             } catch (error) {
                 console.error("Axios Error", error);
             }

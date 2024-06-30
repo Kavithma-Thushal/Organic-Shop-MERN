@@ -1,4 +1,4 @@
-var Product = require('../model/ProductModel');
+var Product = require('../model/ProductSchema');
 
 var ProductController = {
 
