@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /**
  * Module dependencies.
  */
@@ -7,6 +5,9 @@
 var app = require('../app');
 var debug = require('debug')('organic-shop-mern:server');
 var http = require('http');
+
+var dotenv = require('dotenv');
+dotenv.config();
 
 /**
  * Get port from environment and store in Express.

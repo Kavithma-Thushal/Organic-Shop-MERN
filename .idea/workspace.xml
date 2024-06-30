@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="ContactsRouter Added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="Contacts Alert Refactored" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +62,7 @@
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.client">
     <configuration name="client" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -130,6 +128,7 @@
       <workItem from="1718537771275" duration="227000" />
       <workItem from="1718792452050" duration="1262000" />
       <workItem from="1718796213696" duration="167000" />
+      <workItem from="1719713530040" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Server Added">
       <option name="closed" value="true" />
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718537722643</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Contacts Alert Refactored">
+      <option name="closed" value="true" />
+      <created>1719714196738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719714196738</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +218,7 @@
     <MESSAGE value="productRouter.js Added" />
     <MESSAGE value="All Products Added to Client" />
     <MESSAGE value="ContactsRouter Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ContactsRouter Added" />
+    <MESSAGE value="Contacts Alert Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contacts Alert Refactored" />
   </component>
 </project>
