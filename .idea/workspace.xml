@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="All Products Added to Client">
+    <list default="true" id="65375506-c145-4f45-bd1a-1c2ddf28d99c" name="Changes" comment="ContactsRouter Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/pages/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/pages/Contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/pages/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/contactRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/contactRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/productRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/productRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,27 +26,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN/server/views",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.client.executor": "Run",
-    "npm.server.executor": "Run",
-    "npm.start.executor": "Run",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "ts.external.directory.path": "D:\\IJSE\\Workspace\\3rd Sem Repo\\RAD\\Organic-Shop-MERN\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/RAD/Organic-Shop-MERN/server/views&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.client.executor&quot;: &quot;Run&quot;,
+    &quot;npm.server.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IJSE\\Workspace\\3rd Sem Repo\\RAD\\Organic-Shop-MERN\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -68,7 +64,7 @@
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\RAD\Organic-Shop-MERN\server" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.client">
+  <component name="RunManager" selected="npm.server">
     <configuration name="client" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -95,8 +91,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.client" />
         <item itemvalue="npm.server" />
+        <item itemvalue="npm.client" />
         <item itemvalue="npm.client" />
         <item itemvalue="npm.server" />
         <item itemvalue="npm.server" />
@@ -129,6 +125,11 @@
       <workItem from="1718533925523" duration="485000" />
       <workItem from="1718534423003" duration="763000" />
       <workItem from="1718535208934" duration="2212000" />
+      <workItem from="1718537463847" duration="266000" />
+      <workItem from="1718537739520" duration="24000" />
+      <workItem from="1718537771275" duration="227000" />
+      <workItem from="1718792452050" duration="1262000" />
+      <workItem from="1718796213696" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="Server Added">
       <option name="closed" value="true" />
@@ -186,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718535192924</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ContactsRouter Added">
+      <option name="closed" value="true" />
+      <created>1718537722643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718537722643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +210,7 @@
     <MESSAGE value="Contact Refactored to Contacts" />
     <MESSAGE value="productRouter.js Added" />
     <MESSAGE value="All Products Added to Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Products Added to Client" />
+    <MESSAGE value="ContactsRouter Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ContactsRouter Added" />
   </component>
 </project>
